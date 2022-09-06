@@ -99,7 +99,6 @@ main{
 figure{
     width: 50vw;
     display:flex;
-    justify-content: center;
     margin:2.0rem; 
 }
 figure img{
