@@ -15,19 +15,22 @@ header{
     justify-content:space-between;
     align-items: center;
     border-bottom:0.1rem solid black;
+    width: 100%;
 }
-
-.image {
-    width: 5rem;   
-    display:flex;
+body{
+    width: 100%;
+}
+.image {   
     border-radius: 1rem;
     display: flex;
+    width: 20%;
 }
 nav{
     font-size: 1.8rem;
     display:flex;
     align-items: center;
     justify-content:flex-end;
+
 }
 nav li{
     align-items: center;
@@ -51,17 +54,25 @@ input{
 main{
     display: flex;
 }
+.menu-lateral-principal{
+    padding: 1.0rem;
+    position: relative;
+    background-color: #052842;
+    display: flex;
+}
 .menu-lateral{
     display:flex;
     background-color: #052842;
     flex-direction: column;
-    width: 50vh;
     border-right: 0.1rem solid black;
 }
-.menu-lateral a img{
-    display: flex;
-    flex-direction: column;
+.menu-lateral a{
+    display:flex;
+    margin:0;
+    padding:0;
     margin: 1.5rem;
+}
+.menu-lateral img{
     border-radius: 3.0rem;
 }
 .information-right{
@@ -70,6 +81,7 @@ main{
     background-color: #052842;
     font-size: 1.6rem;
     flex-direction: column;
+    padding: 1.0rem;
 }
 .information-right :nth-child(2){
     display: flex;
