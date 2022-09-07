@@ -58,7 +58,9 @@ main{
     width: 50vh;
     border-right: 0.1rem solid black;
 }
-.menu-lateral img{
+.menu-lateral a img{
+    display: flex;
+    flex-direction: column;
     margin: 1.5rem;
     border-radius: 3.0rem;
 }
